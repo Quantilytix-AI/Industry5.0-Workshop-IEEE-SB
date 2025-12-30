@@ -1,0 +1,4 @@
+- cryptography>=44.0.0
+- reportlab>=4.4.0
+- qrcode[pil]>=8.0.0
+- Pillow>=9.5.0
